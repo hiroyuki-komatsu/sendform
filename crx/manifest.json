@@ -1,0 +1,22 @@
+{
+  "name": "SendForm",
+  "description" : "Send the contents to Google Form.",
+  "permissions": [
+    "contextMenus",
+    "activeTab"
+  ],
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "128": "icon.png"
+  },
+  "action": {
+    "default_icon": {
+      "128": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
+}
